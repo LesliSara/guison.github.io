@@ -13,6 +13,7 @@ body {
 
 #logo-img {
   background: url('../imagenes/logo.png') no-repeat;
+  background-size: contain;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -243,6 +244,7 @@ h3.menu-item-title {
   /* Header */
   #logo-img {
     background: url('../imagenes/logo.png') no-repeat;
+    background-size: contain;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
