@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Guisón Sabrosón</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>EL GUISÓN SABROSÓN</h1></a>
+            <p><span>SABOR DESDE EL PRIMER BOCADO</span></p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menú</a>
+            </li>
+            <li>
+              <a href="contacto.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Contacto</a>
+            </li>
+            
+            <li id="phone" class="hidden-xs">
+              <a href="tel:55-2312-1244">
+                <span>55-2312-1244</span></a><div>Llámanos y te lo llevamos a tu hogar</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:55-2312-1244">
+    <span class="glyphicon glyphicon-earphone"></span>
+    55-2312-1244
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">Llámanos y te lo llevamos a tu hogar</div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="imagenes/restaurante.jpg" alt="Foto del resaturante" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu.html"><div id="menu-tile"><span>Menú</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="contacto.html"><div id="contacto"><span>Contacto</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://www.google.com/maps/place/C.+Valent%C3%ADn+G%C3%B3mez+Far%C3%ADas+7,+Roma+Nte.,+Cuauht%C3%A9moc,+06030+Ciudad+de+M%C3%A9xico,+CDMX/@19.4366647,-99.1587198,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f8d272b6eab9:0x4b245a7053803eae!8m2!3d19.4366597!4d-99.1561449!16s%2Fg%2F11b8v4p7w0?entry=ttu" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.438207761262!2d-99.15871982572203!3d19.43666474055291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d272b6eab9%3A0x4b245a7053803eae!2sC.%20Valent%C3%ADn%20G%C3%B3mez%20Far%C3%ADas%207%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006030%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1697516310990!5m2!1ses-419!2smx" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>UBICACIÓN</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="horario" class="col-sm-4">
+          <span>Horario:</span><br>
+          Martes-Viernes: 12:00 pm - 11:00 pm<br>
+          Sábado-Domingo: 11:00 am - 2:00 am<br>
+          Lunes cerrado
+          <hr class="visible-xs">
+        </section>
+        <section id="ubicacion" class="col-sm-4">
+          <span>Ubicación:</span><br>
+          C. Valentín Gómez Farías 7, Roma Nte., Cuauhtémoc, 06030 Ciudad de México, CDMX<br><br>
+          <p>Precio delivery $20 o GRATIS en compra mayor a $300.00</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"¡Atrévete a provar la mejor comida mexicana en la zona metropolitana!"</p>
+          <p>"Galardonados con 5 estrellas &copy Michellin"</p>
+        </section>
+      </div>
+      <div class="text-center">SABOR DESDE EL PRIMER BOCADO</div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
